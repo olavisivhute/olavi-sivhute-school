@@ -1,0 +1,43 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.65;color:#172033;background:#fff}
+header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 2px 14px rgba(0,0,0,.08)}
+.nav{max-width:1180px;margin:auto;min-height:76px;padding:10px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand strong{display:block;font-size:14px;letter-spacing:.5px}
+.brand span{font-size:11px;color:#65708a}
+.logo-placeholder{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#163b70;color:#fff;font-weight:800}
+.nav-links{display:flex;gap:18px;align-items:center}
+.nav-links a{color:#172033;text-decoration:none;font-weight:600;font-size:14px}
+.nav-links a:hover{color:#d39b21}
+.menu{display:none;border:0;background:none;font-size:28px}
+.hero{min-height:650px;display:flex;align-items:center;background:linear-gradient(110deg,rgba(9,35,70,.94),rgba(17,69,104,.82)),url('images/school-hero.jpg') center/cover;padding:80px 8%;color:#fff}
+.hero-content{max-width:780px}
+.eyebrow{font-size:13px;font-weight:800;letter-spacing:2px;color:#d39b21;margin-bottom:12px}
+h1{font-size:clamp(38px,6vw,68px);line-height:1.08;margin-bottom:18px}
+h2{font-size:clamp(30px,4vw,44px);line-height:1.15;margin-bottom:28px}
+.motto{font-size:25px;font-weight:700;margin-bottom:14px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:12px 20px;border-radius:7px;text-decoration:none;border:0;font-weight:700;cursor:pointer}
+.primary{background:#d39b21;color:#fff}.outline{border:1px solid #fff;color:#fff}
+.section,.welcome{max-width:1180px;margin:auto;padding:85px 22px}
+.welcome{display:grid;grid-template-columns:1.5fr 1fr;gap:50px;align-items:center}
+.quote-card{background:#f2f5f8;padding:38px;border-left:5px solid #d39b21;border-radius:10px}
+.quote-mark{font-size:60px;line-height:.5;color:#d39b21}
+.cards{display:grid;gap:20px}.three{grid-template-columns:repeat(3,1fr)}
+.card{padding:28px;background:#fff;border:1px solid #e5e9ef;border-radius:12px;box-shadow:0 8px 25px rgba(20,40,70,.06)}
+.card h3{margin-bottom:10px;color:#163b70}
+.alt{background:#f5f7fa;max-width:none;padding-left:max(22px,calc((100% - 1136px)/2));padding-right:max(22px,calc((100% - 1136px)/2))}
+.admission-box{background:#163b70;color:#fff;padding:35px;border-radius:14px;max-width:750px}
+.admission-box h3{font-size:26px;margin-bottom:15px}
+.admission-box .btn{margin-top:18px}
+.tag{font-size:11px;font-weight:800;letter-spacing:1px;color:#d39b21}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.photo{min-height:190px;border-radius:12px;background:linear-gradient(135deg,#dfe6ee,#aebdce);display:grid;place-items:center;color:#40516a;font-weight:700}
+.hint{margin-top:15px;color:#667085;font-size:14px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}
+form{display:grid;gap:12px}
+input,textarea{width:100%;padding:13px;border:1px solid #ccd4df;border-radius:7px;font:inherit}
+footer{background:#0d223e;color:#fff;text-align:center;padding:35px 20px}
+footer p{color:#c8d2df;margin-top:5px}
+@media(max-width:850px){.menu{display:block}.nav-links{display:none;position:absolute;top:76px;left:0;right:0;background:#fff;padding:20px;flex-direction:column}.nav-links.show{display:flex}.welcome,.contact-grid{grid-template-columns:1fr}.three,.gallery{grid-template-columns:1fr}.hero{min-height:580px;padding:70px 22px}}

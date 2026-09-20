@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olavi Sivhute Kangumbe Combined School</title>
+  <meta name="description" content="Official website of Olavi Sivhute Kangumbe Combined School. Brightness Through Education.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="brand">
+        <div class="logo-placeholder">OSK</div>
+        <div>
+          <strong>OLAVI SIVHUTE KANGUMBE</strong>
+          <span>COMBINED SCHOOL</span>
+        </div>
+      </div>
+      <button class="menu" onclick="toggleMenu()">☰</button>
+      <div id="navLinks" class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#news">News & Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO OUR SCHOOL</p>
+        <h1>Olavi Sivhute Kangumbe Combined School</h1>
+        <p class="motto">“Brightness Through Education”</p>
+        <p>Empowering learners with knowledge, character, confidence and the skills they need to build a brighter future.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#about">Discover Our School</a>
+          <a class="btn outline" href="#admissions">Admissions</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="welcome">
+      <div>
+        <p class="eyebrow">A MESSAGE FROM THE SCHOOL</p>
+        <h2>Welcome to Olavi Sivhute Kangumbe Combined School</h2>
+        <p>We are committed to creating a safe, supportive and purposeful learning environment where every learner is encouraged to discover their potential and strive for excellence.</p>
+        <p>Through dedicated teaching, strong leadership, teamwork and positive values, we aim to prepare our learners for responsible participation in their communities and the wider world.</p>
+      </div>
+      <div class="quote-card">
+        <div class="quote-mark">“</div>
+        <p>Education is the foundation upon which learners can build a brighter future.</p>
+        <small>— School Leadership</small>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">WHO WE ARE</p>
+      <h2>About Our School</h2>
+      <div class="cards three">
+        <article class="card"><h3>Our Vision</h3><p>To nurture confident, responsible and lifelong learners who contribute positively to society.</p></article>
+        <article class="card"><h3>Our Mission</h3><p>To provide quality education in an inclusive environment that develops knowledge, skills, values and character.</p></article>
+        <article class="card"><h3>Our Values</h3><p>Respect • Integrity • Responsibility • Teamwork • Excellence • Service</p></article>
+      </div>
+    </section>
+
+    <section id="academics" class="section alt">
+      <p class="eyebrow">LEARNING</p>
+      <h2>Academics</h2>
+      <div class="cards three">
+        <article class="card"><h3>Grades</h3><p>Our school provides learning opportunities across the grades offered by the school.</p></article>
+        <article class="card"><h3>Subjects</h3><p>Learners are supported across the curriculum through effective teaching, assessment and learner support.</p></article>
+        <article class="card"><h3>Achievement</h3><p>We promote academic excellence, creativity, critical thinking and continuous improvement.</p></article>
+      </div>
+    </section>
+
+    <section id="admissions" class="section">
+      <p class="eyebrow">JOIN OUR SCHOOL</p>
+      <h2>Admissions</h2>
+      <div class="admission-box">
+        <h3>2026 Admissions</h3>
+        <p><strong>Grades:</strong> 4 and 8</p>
+        <p><strong>Application form collection:</strong> 15–30 June 2026</p>
+        <p><strong>Submission due date:</strong> 1 July 2026</p>
+        <p><strong>Location:</strong> Musese Village, Kavango West Region, Namibia</p>
+        <a class="btn primary" href="#contact">Contact the School</a>
+      </div>
+    </section>
+
+    <section id="news" class="section alt">
+      <p class="eyebrow">STAY INFORMED</p>
+      <h2>News & Events</h2>
+      <div class="cards three">
+        <article class="card"><span class="tag">SCHOOL EVENT</span><h3>Entrepreneurship Day</h3><p>Celebrating creativity, innovation and enterprise among our learners.</p></article>
+        <article class="card"><span class="tag">ACADEMICS</span><h3>Academic Excellence</h3><p>Recognising learners and teachers who demonstrate commitment to academic achievement.</p></article>
+        <article class="card"><span class="tag">COMMUNITY</span><h3>School Activities</h3><p>Follow our latest school, cultural, sports and community activities.</p></article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <p class="eyebrow">OUR SCHOOL LIFE</p>
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <div class="photo">School Photo</div>
+        <div class="photo">Learners</div>
+        <div class="photo">Teachers</div>
+        <div class="photo">Activities</div>
+        <div class="photo">Sports</div>
+        <div class="photo">Events</div>
+      </div>
+      <p class="hint">Replace these placeholders with your school's photographs.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Contact Us</h2>
+      <div class="contact-grid">
+        <div>
+          <h3>Olavi Sivhute Kangumbe Combined School</h3>
+          <p>Musese Village, Kavango West Region, Namibia</p>
+          <p><strong>Email:</strong> olavisivhutek0@gmail.com</p>
+          <p><strong>Phone:</strong> Add school telephone number</p>
+        </div>
+        <form onsubmit="sendMessage(event)">
+          <input type="text" placeholder="Your name" required>
+          <input type="email" placeholder="Your email" required>
+          <textarea rows="5" placeholder="Your message" required></textarea>
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>OLAVI SIVHUTE KANGUMBE COMBINED SCHOOL</strong>
+    <p>“Brightness Through Education”</p>
+    <p>© 2026 Olavi Sivhute Kangumbe Combined School. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
